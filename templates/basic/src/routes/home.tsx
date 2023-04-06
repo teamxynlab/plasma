@@ -5,13 +5,21 @@ import { pb } from "../../utils/pocketbase";
 const Home: Component = () => {
     return (
         <main class="flex items-center justify-center flex-col gap-y-4">
-            <h1 class="text-4xl text-indigo-500 font-bold">
-                Welcome to Plasma!
+            <h1 class="text-4xl font-bold">
+                Welcome to <span class="text-indigo-500">Plasma</span>
             </h1>
             <p>
                 Seamlessly build your next amazing app with the{" "}
                 <b>tech stack of the future</b>
             </p>
+
+            <div class="w-full px-4 py-6 rounded-lg text-white text-center text-lg bg-gradient-to-r from-indigo-500 to-purple-500">
+                Edit{" "}
+                <code class="bg-white rounded-md text-black px-2 py-1 font-sans">
+                    src/routes/home.tsx
+                </code>{" "}
+                to get started!
+            </div>
 
             {/* TODO: Link to docs.md on GitHub */}
             <Card
