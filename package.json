@@ -18,6 +18,7 @@
   },
   "dependencies": {
     "@solidjs/router": "^0.8.2",
+    "pocketbase": "^0.13.1",
     "solid-js": "^1.6.10"
   }
 }
