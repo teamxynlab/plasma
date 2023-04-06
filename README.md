@@ -5,4 +5,4 @@ The tech stack of the future.
 - Solid
 - Solid Router
 - Tailwind CSS
-- PocketBase
+- PocketBase v0.14.2
