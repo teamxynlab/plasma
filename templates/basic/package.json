@@ -4,6 +4,10 @@
   "description": "",
   "scripts": {
     "dev": "vite",
+    "dev:linux": "vite & backend/pocketbase-linux serve",
+    "dev:macos": "vite & backend/pocketbase-macos serve",
+    "dev:macosarm": "vite & backend/pocketbase-macosarm serve",
+    "dev:windows": "vite & backend/pocketbase-windows.exe serve",
     "build": "vite build",
     "serve": "vite preview"
   },
