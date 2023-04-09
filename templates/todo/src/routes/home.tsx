@@ -47,33 +47,48 @@ const Home: Component = () => {
             <h1 class="text-4xl font-bold mb-4">My TODOs</h1>
             <For each={todos}>
                 {(todo, i) => (
-                    <div class="flex items-center justify-between w-full bg-gray-100 p-4 rounded-lg gap-x-4">
-                        <p class="flex-1">{todo.content}</p>
+                    <div class="flex items-center justify-between w-full">
                         <input
-                            type="checkbox"
-                            checked={todo.isDone}
-                            onChange={() =>
+                            placeholder={`TODO #${i() + 1}`}
+                            value={todo.content}
+                            onChange={(e) =>
+                                setTodos(
+                                    (todo) => todo.id === i(),
+                                    "content",
+                                    () => e.currentTarget.value
+                                )
+                            }
+                            class="flex-1 outline-none bg-gray-100 p-4 rounded-s-lg"
+                        />
+                        <button
+                            onClick={() =>
                                 setTodos(
                                     (todo) => todo.id === i(),
                                     "isDone",
                                     (isDone) => !isDone
                                 )
                             }
-                            class="w-4 h-4 border-gray-300 rounded-lg cursor-pointer"
-                        />
+                            class={
+                                todo.isDone
+                                    ? "transition-colors bg-green-200 hover:bg-green-300 p-4 rounded-e-lg w-[120px]"
+                                    : "transition-colors bg-blue-200 hover:bg-blue-300 p-4 rounded-e-lg w-[120px]"
+                            }
+                        >
+                            {todo.isDone ? "Completed" : "Complete"}
+                        </button>
                     </div>
                 )}
             </For>
-            <div class="flex items-center justify-between w-full gap-x-4 bg-gray-100 rounded-lg">
+            <div class="flex items-center justify-between w-full">
                 <input
                     placeholder="New TODO..."
                     value={newTodo()}
                     onChange={(e) => setNewTodo(e.currentTarget.value)}
-                    class="flex-1 outline-none bg-gray-100 pl-4"
+                    class="flex-1 outline-none bg-gray-100 p-4 rounded-s-lg"
                 />
                 <button
                     onClick={() => createTodo()}
-                    class="p-4 hover:text-indigo-500 transition-colors font-bold"
+                    class="transition-colors bg-indigo-200 hover:bg-indigo-300 p-4 rounded-e-lg w-[120px]"
                 >
                     + Add
                 </button>
