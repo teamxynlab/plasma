@@ -5,7 +5,7 @@ The tech stack of the future.
 - Solid
 - Solid Router
 - Tailwind CSS
-- PocketBase v0.14.2
+- PocketBase v0.14.3
 
 ## 🚀 Templates
 [Basic](https://github.com/teamxynlab/plasma/tree/main/templates/basic)
