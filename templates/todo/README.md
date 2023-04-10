@@ -3,5 +3,3 @@
 ```bash
 npx degit teamxynlab/plasma/templates/todo my-plasma-app
 ```
-
-*In Progress*

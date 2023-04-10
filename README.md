@@ -13,7 +13,7 @@ The tech stack of the future.
 npx degit teamxynlab/plasma/templates/basic my-plasma-app
 ```
 
-[TODO](https://github.com/teamxynlab/plasma/tree/main/templates/todo) *In Progress*
+[TODO](https://github.com/teamxynlab/plasma/tree/main/templates/todo)
 ```bash
 npx degit teamxynlab/plasma/templates/todo my-plasma-app
 ```
