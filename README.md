@@ -5,7 +5,7 @@ The tech stack of the future.
 - Solid
 - Solid Router
 - Tailwind CSS
-- PocketBase v0.14.2
+- PocketBase v0.14.3
 
 ## 🚀 Templates
 [Basic](https://github.com/teamxynlab/plasma/tree/main/templates/basic)
@@ -13,7 +13,7 @@ The tech stack of the future.
 npx degit teamxynlab/plasma/templates/basic my-plasma-app
 ```
 
-[TODO](https://github.com/teamxynlab/plasma/tree/main/templates/todo) *In Progress*
+[TODO](https://github.com/teamxynlab/plasma/tree/main/templates/todo)
 ```bash
 npx degit teamxynlab/plasma/templates/todo my-plasma-app
 ```

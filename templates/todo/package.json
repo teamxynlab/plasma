@@ -1,0 +1,28 @@
+{
+  "name": "plasma-app",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "vite",
+    "dev:linux": "vite & backend/pocketbase-linux serve",
+    "dev:macos": "vite & backend/pocketbase-macos serve",
+    "dev:macosarm": "vite & backend/pocketbase-macosarm serve",
+    "dev:windows": "vite & backend/pocketbase-windows.exe serve",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.4",
+    "typescript": "^4.9.5",
+    "vite": "^4.1.1",
+    "vite-plugin-solid": "^2.5.0"
+  },
+  "dependencies": {
+    "@solidjs/router": "^0.8.2",
+    "pocketbase": "^0.13.1",
+    "solid-js": "^1.6.10"
+  }
+}
