@@ -28,11 +28,10 @@ const Home: Component = () => {
                 desc="Understand the structure of a Plasma app and its underlying technologies - Solid, Solid Router, Tailwind CSS, and PocketBase."
             />
 
-            {/* TODO: Link to example app folder on GitHub */}
             <Card
-                url=""
-                title="Clone a TODO App"
-                desc="Play around with an example TODO app built with Plasma while browsing through the code responsible for making it all happen."
+                url="https://github.com/teamxynlab/plasma#-templates"
+                title="Clone a Template App"
+                desc="Play around with template apps built with Plasma while browsing through the code responsible for making it all happen."
             />
 
             <Card
