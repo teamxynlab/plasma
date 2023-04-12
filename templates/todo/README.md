@@ -8,7 +8,7 @@ npx degit teamxynlab/plasma/templates/todo my-plasma-app
 
 ## ⚡️ Project Structure
 
-Inside of your basic Plasma project, you'll see the following folders and files:
+Inside of this Plasma project, you'll see the following folders and files:
 
 ```
 /
