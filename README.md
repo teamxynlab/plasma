@@ -1,9 +1,8 @@
 # Plasma
-The tech stack of the future.
+The tech stack of the future
 
 ## 🤖 Technologies
-- Solid
-- Solid Router
+- Solid (+ Solid Router)
 - Tailwind CSS
 - PocketBase v0.14.3
 
