@@ -1,5 +1,3 @@
-# Plasma Docs
-
 Welcome to Plasma! We're very excited to see you adopting our stack, and I hope you too are excited to be working with the modern and future-ready technologies in Plasma: Solid (+ Solid Router), Tailwind CSS, PocketBase.
 
 ## 📝 Getting Started
