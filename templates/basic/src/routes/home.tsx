@@ -21,11 +21,10 @@ const Home: Component = () => {
                 to get started!
             </div>
 
-            {/* TODO: Link to docs.md on GitHub */}
             <Card
-                url=""
+                url="https://teamxynlab.github.io/plasma/"
                 title="Read the Docs"
-                desc="Understand the structure of a Plasma app and its underlying technologies - Solid, Solid Router, Tailwind CSS, and PocketBase."
+                desc="Understand the structure of a Plasma app and its underlying technologies - Solid (+ Solid Router), Tailwind CSS, and PocketBase."
             />
 
             <Card
