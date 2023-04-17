@@ -1,4 +1,4 @@
-Welcome to Plasma! We're very excited to see you adopting our stack, and I hope you too are excited to be working with the modern and future-ready technologies in Plasma: Solid (+ Solid Router), Tailwind CSS, PocketBase.
+Welcome to Plasma! We're very excited to see you adopting our stack, and we hope you too are excited to be working with the modern and future-ready technologies in Plasma: Solid (+ Solid Router), Tailwind CSS, PocketBase.
 
 ## 📝 Getting Started
 
@@ -12,7 +12,7 @@ You can find and use more template apps [here](https://github.com/teamxynlab/pla
 
 ## 🚀 Our Underlying Tech
 
-Plasma consists of 3 primary tech:
+Plasma consists of 3 primary technologies:
 - [Solid](https://www.solidjs.com/) (+ [Solid Router](https://github.com/solidjs/solid-router)): to build performant reactive web apps
 - [Tailwind CSS](https://tailwindcss.com/): to beautifully style your web apps
 - [PocketBase](https://pocketbase.io/): to handle storage, authentication, and all things backend
@@ -33,17 +33,17 @@ Here are the important folders and files in your standard Plasma app:
 └── └── pocketbase.ts
 ```
 
-`/backend` contains the executables to run your PocketBase instance for different operating systems.
+`backend/` contains the executables to run your PocketBase instance for different operating systems.
 
-`/src/assets` contains your static assets (e.g. images).
+`src/assets/` contains your static assets (e.g. images).
 
-`/src/components` contains your custom reusable components for your app (e.g. `card.tsx`).
+`src/components/` contains your custom reusable components for your app (e.g. `card.tsx`).
 
-`/src/routes` contains your pages. By convention, the `/` route is defined in the `home.tsx` file, the `/about` route is defined in the `about.tsx` file, and the `/about/me` route is defined in the `/about/me.tsx` file.
+`src/routes/` contains the `.tsx` files defining your routes. By convention, the `/` route is defined in the `home.tsx` file, the `/about` route is defined in the `about.tsx` file, and the `/about/me` route is defined in the `/about/me.tsx` file.
 
-`/src/App.tsx` is where you define the routes of your Plasma app and any layout to be shared across the entire Plasma app.
+`src/App.tsx` is where you add the routes of your Plasma app and define any elements to be shared across your entire Plasma app.
 
-`/utils/pocketbase.ts` contains the definition of your PocketBase instance.
+`utils/pocketbase.ts` contains the definition of your PocketBase instance.
 
 ## 📝 Commands
 
