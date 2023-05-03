@@ -17,4 +17,4 @@ npx degit teamxynlab/plasma/templates/basic my-plasma-app
 npx degit teamxynlab/plasma/templates/todo my-plasma-app
 ```
 
-Find more template apps [here](https://github.com/teamxynlab/plasma/tree/main/templates)
+Find more template apps [here](https://github.com/teamxynlab/plasma/tree/main/templates)!
