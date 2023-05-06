@@ -3,7 +3,7 @@ import Card from "../components/card";
 
 const Home: Component = () => {
     return (
-        <main class="flex items-center justify-center flex-col gap-y-4 w-[80vw]">
+        <main class="flex items-center justify-center flex-col gap-y-4 w-[80vw] py-4">
             <h1 class="text-4xl font-bold">Plasma Router</h1>
             <p>Navigate between routes in your Plasma project</p>
 

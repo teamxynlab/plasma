@@ -13,6 +13,7 @@ Inside of this Plasma project, you'll see the following folders and files:
 ```
 /
 ├── backend/
+|   └── pb_migrations/
 │   └── pocketbase-linux
 |   └── pocketbase-macos
 |   └── pocketbase-macosarm
@@ -24,6 +25,9 @@ Inside of this Plasma project, you'll see the following folders and files:
 │   │   └── card.tsx
 │   ├── routes/
 │   │   └── home.tsx
+│   │   └── login.tsx
+│   │   └── user.tsx
+│   │   └── users.tsx
 │   ├── App.tsx
 |   ├── index.css
 |   └── index.tsx
