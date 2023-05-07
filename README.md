@@ -6,15 +6,9 @@ The tech stack of the future
 - Tailwind CSS
 - PocketBase v0.15.2
 
-## 🚀 Templates
-[Basic](https://github.com/teamxynlab/plasma/tree/main/templates/basic)
+## 🚀 Getting Started
 ```bash
 npx degit teamxynlab/plasma/templates/basic my-plasma-app
-```
-
-[TODO](https://github.com/teamxynlab/plasma/tree/main/templates/todo)
-```bash
-npx degit teamxynlab/plasma/templates/todo my-plasma-app
 ```
 
 Find more template apps [here](https://github.com/teamxynlab/plasma/tree/main/templates)!
