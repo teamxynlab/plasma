@@ -1,10 +1,10 @@
 # Plasma
-The tech stack of the future
+The web development tech stack of the future
 
 ## 🤖 Technologies
 - Solid (+ Solid Router)
 - Tailwind CSS
-- PocketBase v0.15.2
+- PocketBase v0.15.3
 
 ## 🚀 Getting Started
 ```bash
