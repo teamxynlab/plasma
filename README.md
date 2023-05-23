@@ -7,6 +7,8 @@ The web development tech stack of the future
 - PocketBase v0.15.3
 
 ## 🚀 Getting Started
+Run the following command to get started with the basic Plasma template:
+
 ```bash
 npx degit teamxynlab/plasma/templates/basic my-plasma-app
 ```
