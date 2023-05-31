@@ -4,7 +4,7 @@ The web development tech stack of the future
 ## 🤖 Technologies
 - Solid (+ Solid Router)
 - Tailwind CSS
-- PocketBase v0.15.3
+- PocketBase v0.16.3
 
 ## 🚀 Getting Started
 Run the following command to get started with Plasma:
